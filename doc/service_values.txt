@@ -10,6 +10,7 @@ oth_i
 domain_u
 tftp_u
 ntp_u
+llmnr_u
 IRC
 X11
 Z39_50

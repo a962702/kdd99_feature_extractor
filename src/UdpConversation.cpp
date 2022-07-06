@@ -38,6 +38,10 @@ namespace FeatureExtractor {
 			return SRV_NTP_U;
 			break;
 
+		case 5355: // Link-Local Multicast Name Resolution (LLMNR)
+			return SRV_LLMNR_U;
+			break;
+
 		default:
 			// Defined by IANA in RFC 6335 section 6:
 			// the Dynamic Ports, also known as the Private or Ephemeral Ports,

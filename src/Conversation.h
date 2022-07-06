@@ -65,6 +65,7 @@ namespace FeatureExtractor {
 		SRV_DOMAIN_U,
 		SRV_TFTP_U,
 		SRV_NTP_U,
+		SRV_LLMNR_U,
 
 		// TCP
 		SRV_IRC,
