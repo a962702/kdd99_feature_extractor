@@ -42,6 +42,10 @@ namespace FeatureExtractor {
 			return SRV_LLMNR_U;
 			break;
 
+		case 1900: // Simple Service Discovery Protocol (SSDP)
+			return SRV_SSDP_U;
+			break;
+
 		default:
 			// Defined by IANA in RFC 6335 section 6:
 			// the Dynamic Ports, also known as the Private or Ephemeral Ports,
