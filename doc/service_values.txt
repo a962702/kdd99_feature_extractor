@@ -12,6 +12,7 @@ tftp_u
 ntp_u
 llmnr_u
 ssdp_u
+dhcp_u
 IRC
 X11
 Z39_50

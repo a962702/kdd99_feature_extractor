@@ -46,6 +46,11 @@ namespace FeatureExtractor {
 			return SRV_SSDP_U;
 			break;
 
+		case 67: // Dynamic Host Configuration Protocol (DHCP) - DHCPDISCOVER or DHCPREQUEST
+		case 68: // Dynamic Host Configuration Protocol (DHCP) - DHCPOFFER or DHCPACK
+			return SRV_DHCP_U;
+			break;
+
 		default:
 			// Defined by IANA in RFC 6335 section 6:
 			// the Dynamic Ports, also known as the Private or Ephemeral Ports,

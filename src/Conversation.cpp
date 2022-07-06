@@ -27,6 +27,7 @@ namespace FeatureExtractor {
 		"ntp_u",
 		"llmnr_u",
 		"ssdp_u",
+		"dhcp_u",
 
 		// TCP
 		"IRC",
