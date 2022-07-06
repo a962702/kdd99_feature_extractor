@@ -507,6 +507,10 @@ namespace FeatureExtractor {
 			return SRV_SHELL;
 			break;
 
+		case 445: // Server Message Block (SMB)
+			return SRV_SMB;
+			break;
+
 		case 25: // Simple Mail Transfer
 			return SRV_SMTP;
 			break;

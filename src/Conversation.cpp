@@ -75,6 +75,7 @@ namespace FeatureExtractor {
 		"remote_job",
 		"rje",
 		"shell",
+		"smb",
 		"smtp",
 		"sql_net",
 		"ssh",

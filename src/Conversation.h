@@ -115,6 +115,7 @@ namespace FeatureExtractor {
 		SRV_REMOTE_JOB,
 		SRV_RJE,
 		SRV_SHELL,
+		SRV_SMB,
 		SRV_SMTP,
 		SRV_SQL_NET,
 		SRV_SSH,
