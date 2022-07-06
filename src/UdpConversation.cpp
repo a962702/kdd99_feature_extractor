@@ -59,6 +59,10 @@ namespace FeatureExtractor {
 			return SRV_NETBIOS_NS_U;
 			break;
 
+		case 3702: // Web Services Dynamic Discovery (WS-Discovery)
+			return SRV_WS_DISCOVERY_U;
+			break;
+
 		default:
 			// Defined by IANA in RFC 6335 section 6:
 			// the Dynamic Ports, also known as the Private or Ephemeral Ports,

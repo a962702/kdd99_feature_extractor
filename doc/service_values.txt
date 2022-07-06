@@ -15,6 +15,7 @@ ssdp_u
 dhcp_u
 netbios_dgm_u
 netbios_ns_u
+ws_discovery_u
 IRC
 X11
 Z39_50

@@ -70,6 +70,7 @@ namespace FeatureExtractor {
 		SRV_DHCP_U,
 		SRV_NETBIOS_DGM_U,
 		SRV_NETBIOS_NS_U,
+		SRV_WS_DISCOVERY_U,
 
 		// TCP
 		SRV_IRC,
