@@ -28,6 +28,8 @@ namespace FeatureExtractor {
 		"llmnr_u",
 		"ssdp_u",
 		"dhcp_u",
+		"netbios_dgm_u",
+		"netbios_ns_u",
 
 		// TCP
 		"IRC",

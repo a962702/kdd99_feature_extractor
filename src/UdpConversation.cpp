@@ -51,6 +51,14 @@ namespace FeatureExtractor {
 			return SRV_DHCP_U;
 			break;
 
+		case 138: // NETBIOS Datagram Service
+			return SRV_NETBIOS_DGM_U;
+			break;
+
+		case 137: // NETBIOS Name Service
+			return SRV_NETBIOS_NS_U;
+			break;
+
 		default:
 			// Defined by IANA in RFC 6335 section 6:
 			// the Dynamic Ports, also known as the Private or Ephemeral Ports,

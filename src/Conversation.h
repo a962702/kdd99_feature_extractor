@@ -68,6 +68,8 @@ namespace FeatureExtractor {
 		SRV_LLMNR_U,
 		SRV_SSDP_U,
 		SRV_DHCP_U,
+		SRV_NETBIOS_DGM_U,
+		SRV_NETBIOS_NS_U,
 
 		// TCP
 		SRV_IRC,
